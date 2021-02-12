@@ -7,6 +7,8 @@ Basketball is an increasingly popular sport in Canada and around the world; casu
 
 Our goal is to solve this problem by making a machine learning model that will detect the location of basketball courts using satellite imagery, with a false negative rate of less than 20% and a false positive rate of less than 5%. This is because in our case false negatives are less harmful than false positives.
 
+![image](https://drive.google.com/uc?export=view&id=1isC35GoQNzo3JBeZzSSiPnlGfO7bFajq)
+
 This project is interesting because the model can be applied to satellite imagery from anywhere in the world. This model and code could also be translated to use to other classification problems based on satellite images, such as detecting other sports venues or public spaces. 
 
 Machine learning is sensible to use due to its ability to solve classification problems, with the ideal model being a You Only Live Once (YOLO) convolutional neural network (CNN) because of its proficiency with image analysis and object detection. 
@@ -22,8 +24,11 @@ We will be using YOLOv2 architecture, which provides various improvements on YOL
 
 ## Architecture
 
+![image](https://drive.google.com/uc?export=view&id=1X8l7_9PFiHu820F1GFApHVlgqJ0LnLtK)
 
 We intend to train a model by passing custom classified images of basketball courts through the YOLOv2 architecture [7]. The YOLO CNN will perform object detection and draw bounding boxes around the regions of the image it judges to have a probability over some threshold of being a basketball court, which we can then apply to satellite imagery.
+
+![image](https://drive.google.com/uc?export=view&id=1wPMJsJjwejix-7LmEEbaRw4NcW6M31Ak)
 
 ## Data Processing
 

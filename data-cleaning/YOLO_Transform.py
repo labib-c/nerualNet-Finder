@@ -37,7 +37,7 @@ def dota2darknet(imgpath, txtpath, dstpath, extractclassname):
 
 if __name__ == '__main__':
     ## an example
-    dota2darknet('cleaned/images',
-                 'cleaned/labels',
-                 'cleaned/new_labels',
+    dota2darknet('dota_cleaned/images',
+                 'dota_cleaned/labels',
+                 'dota_cleaned/new_labels',
                  util.wordname_15)
